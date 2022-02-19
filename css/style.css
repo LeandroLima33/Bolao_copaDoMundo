@@ -1,0 +1,229 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+body {
+    background: rgb(33,33,38);
+    background: radial-gradient(circle, rgba(33,33,38,1) 0%, rgba(9,9,9,1) 89%);
+    overflow-x: hidden;
+  
+        
+
+    }
+
+    .header {
+        background-color: rgb(12, 11, 11);
+        width: 100vw;
+        height: 60px; 
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .header img {
+        width: 50px;
+        height: 50px;
+        align-self: center;
+        margin-right: 20px;
+    }
+
+    .header h2 {
+        align-self: center;
+        margin-right: 10px;
+        color: white;
+        font-family: 'Helvetica', 'sans-serif';
+        font-size: 16px;
+    }
+
+    .header a  {
+        margin-right: 50px;
+        align-self: center;
+        text-decoration: none;
+    }
+
+    .header a h2 {
+        color: gold;
+        transition: ease-in-out 0.4s;
+    }
+
+    .header a h2:hover {
+        color: darkorange
+    }
+
+h1 {
+    color: gold;
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+   
+}
+
+#jogos {
+
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: 100px;
+
+}
+
+.titulo-grupo {
+    align-self: center;
+    color: white;
+    font-family: 'Helvetica', 'sans-serif';
+    
+}
+
+
+
+.container-jogos {
+   
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.estilo-grupos {
+    background: goldenrod;
+    display: flex;
+    color: black;
+    font-family: 'Helvetica', 'sans-serif';
+    font-weight: bold;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    transition: ease-in-out 0.5s;
+    
+}
+
+.estilo-grupos:hover {
+    border: 2px solid white;
+}
+
+.container-times-c1a ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-self: center;
+    margin-left: 4px;
+   
+}
+
+.estilo-input {
+    width: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.estilo-input:focus {
+    background-color: lightseagreen;
+   
+
+}
+
+
+.container-inputs-a {
+    display: flex; 
+    flex-direction: column;
+    row-gap: 9px;
+    margin-left: 10px;
+  
+   
+}
+
+
+
+
+.container-x {
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 5.7px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.container-inputs-c2a {
+    display: flex; 
+    flex-direction: column;
+    row-gap: 9px;
+    margin-right: 10px;
+
+ 
+}
+
+.container-times-c2 ul {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    text-align: end;
+    margin-right: 4px;
+   
+ 
+}
+
+.button {
+
+  
+    width: 100px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    
+
+    margin: 0 auto;
+    
+    margin-top: 35px;
+    transition: ease-in 1s;
+       
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Helvetica', 'sans-serif';
+
+}
+
+.button:hover {
+    border: 1px solid black;
+    background: goldenrod;
+    transition: ease-in 1s;
+    transition: border ease-in 1s;
+}
+
+.button a:hover {
+    color: black;
+    transition: ease-in 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
